@@ -1,0 +1,418 @@
+Assets/
+    Document/
+    Documents/
+    FREE/
+        Pack_FREE_PartyCharacters/
+            Animations/
+                char_AC.controller
+                fall.anim
+                Idle.anim
+                Jump.anim
+                Lose.anim
+                running default.anim
+                Win.anim
+            Editor/
+                CharacterPromoWindow.cs
+                FreeCharacterCustomizerWindow.cs
+            Models/
+                customize_objects.fbx
+                party_character.fbx
+            Prefabs/
+                Character_040ae0.prefab
+                Character_0413da.prefab
+                Character_4c4e64.prefab
+                Character_6dd688.prefab
+                Character_8d9656.prefab
+                Character_cbb54a.prefab
+            Resources/
+                Icons/
+                    lock_off.png
+                    lock_on.png
+                    promo_image.png
+                    reset_cam.png
+                Materials/
+                    Body/
+                        Blue 1 Dark.mat
+                        Blue 2 Base.mat
+                        Blue 3 Light.mat
+                        Brown 1 Dark.mat
+                        Brown 2 Base.mat
+                        Brown 3 Light.mat
+                        Cream 1 Dark.mat
+                        Cream 2 Base.mat
+                        Cream 3 Light.mat
+                        Cyan 1 Dark.mat
+                        Cyan 2 Base.mat
+                        Cyan 3 Light.mat
+                        Green 1 Dark.mat
+                        Green 2 Base.mat
+                        Green 3 Light.mat
+                        Grey 1 Dark.mat
+                        Grey 2 Base.mat
+                        Grey 3 Light.mat
+                        Orange 1 Dark.mat
+                        Orange 2 Base.mat
+                        Orange 3 Light.mat
+                        Pink 1 Dark.mat
+                        Pink 2 Base.mat
+                        Pink 3 Light.mat
+                        Purple 1 Dark.mat
+                        Purple 2 Base.mat
+                        Purple 3 Light.mat
+                        Red 1 Dark.mat
+                        Red 2 Base.mat
+                        Red 3 Light.mat
+                        Turquoise 1 Dark.mat
+                        Turquoise 2 Base.mat
+                        Turquoise 3 Light.mat
+                        Yellow 1 Dark.mat
+                        Yellow 2 Base.mat
+                        Yellow 3 Light.mat
+                    Face/
+                        face 1.mat
+                        face 2.mat
+                        face 3.mat
+                    Face Images/
+                        face 1.png
+                        face 2.png
+                        face 3.png
+                    ColorPalette.mat
+                    ColorPalette.png
+                    Ground.mat
+                Prefabs/
+                    Hats/
+                        chef hat.prefab
+                        orange fedora.prefab
+                        party hat.prefab
+                    character_default.prefab
+            FreeCustomizationWindow_Documentation.pdf
+            PartyCharactersScene.unity
+    Prefabs/
+        Counters/
+            ClearCounter.prefab
+            ContainerCounter.prefab
+            ContainerCounter_Bread.prefab
+            ContainerCounter_Cabbage.prefab
+            ContainerCounter_CheeseBlock.prefab
+            ContainerCounter_MeatPattyUncooked.prefab
+            ContainerCounter_Tomato.prefab
+            CuttingCounter.prefab
+            DeliveryCounter.prefab
+            PlatesCounter.prefab
+            StoveCounter.prefab
+            TrashCounter.prefab
+            _BaseCounter.prefab
+        KitchenObjects/
+            Bread.prefab
+            Cabbage.prefab
+            CabbageSlices.prefab
+            CheeseBlock.prefab
+            CheeseSlices.prefab
+            MeatPattyBurned.prefab
+            MeatPattyCooked.prefab
+            MeatPattyUncooked.prefab
+            Plate.prefab
+            Tomato.prefab
+            TomatoSlices.prefab
+        ProgressBarUI.prefab
+    Scenes/
+        GameScene/
+            Global Volume Profile.asset
+        GameScene.unity
+        LoadingScene.unity
+        MainMenuScene.unity
+    ScriptableObjects/
+        BurningRecipeSO/
+            MeatPattyCooked-MeatPattyBurned.asset
+        CuttingRecipeSO/
+            Cabbage-CabbageSlices.asset
+            CheeseBlock-CheeseSlices.asset
+            Tomato-TomatoSlices.asset
+        FryingRecipeSO/
+            MeatPattyUncooked-MeatPattyCooked.asset
+        KitchenObjectSO/
+            Bread.asset
+            Cabbage.asset
+            CabbageSlices.asset
+            CheeseBlock.asset
+            CheeseSlices.asset
+            MeatPattyBurned.asset
+            MeatPattyCooked.asset
+            MeatPattyUncooked.asset
+            Plate.asset
+            Tomato.asset
+            TomatoSlices.asset
+        RecipeSO/
+            Burger.asset
+            CheeseBurger.asset
+            MEGABurger.asset
+            Salad.asset
+            _RecipeListSO.asset
+        AudioClipRefsSO.asset
+    Scripts/
+        Counters/
+            BaseCounter.cs
+            ClearCounter.cs
+            ContainerCounter.cs
+            ContainerCounterVisual.cs
+            CuttingCounter.cs
+            CuttingCounterVisual.cs
+            DeliveryCounter.cs
+            PlatesCounter.cs
+            PlatesCounterVisual.cs
+            SelectedCounterVisual.cs
+            StoveCounter.cs
+            StoveCounterVisual.cs
+            TrashCounter.cs
+        ScriptableObjects/
+            AudioClipRefsSO.cs
+            BurningRecipeSO.cs
+            CuttingRecipeSO.cs
+            FryingRecipeSO.cs
+            KitchenObjectSO.cs
+            RecipeListSO.cs
+            RecipeSO.cs
+        UI/
+            DeliveryManagerSingleUI.cs
+            DeliveryManagerUI.cs
+            GameOverUI.cs
+            GamePlayingClockUI.cs
+            GameStartCountdownUI.cs
+            MainMenuUI.cs
+            OptionsUI.cs
+            PlateIconsSingleUI.cs
+            PlateIconsUI.cs
+            ProgressBarUI.cs
+        DeliveryManager.cs
+        GameInput.cs
+        GameManager.cs
+        GamePauseUI.cs
+        IHasProgress.cs
+        IKitchenObjectParent.cs
+        KitchenObject.cs
+        Loader.cs
+        LoaderCallback.cs
+        LookAtCamera.cs
+        MusicManager.cs
+        PlateCompleteVisual.cs
+        PlateKitchenObject.cs
+        Player.cs
+        PlayerAnimator.cs
+        PlayerSounds.cs
+        ProjectHierarchyExporter.cs
+        ResetStaticDataManager.cs
+        SoundManager.cs
+        StoveCounterSound.cs
+    Settings/
+        URP-HighFidelity-Renderer.asset
+        URP-HighFidelity.asset
+    Shaders/
+        MovingVisual.shadergraph
+    TextMesh Pro/
+        Documentation/
+            TextMesh Pro User Guide 2016.pdf
+        Fonts/
+            LiberationSans - OFL.txt
+            LiberationSans.ttf
+        Resources/
+            Fonts & Materials/
+                LiberationSans SDF - Drop Shadow.mat
+                LiberationSans SDF - Fallback.asset
+                LiberationSans SDF - Outline.mat
+                LiberationSans SDF StartCountDown.mat
+                LiberationSans SDF.asset
+            Sprite Assets/
+                EmojiOne.asset
+            Style Sheets/
+                Default Style Sheet.asset
+            LineBreaking Following Characters.txt
+            LineBreaking Leading Characters.txt
+            TMP Settings.asset
+        Shaders/
+            TMPro.cginc
+            TMPro_Mobile.cginc
+            TMPro_Properties.cginc
+            TMPro_Surface.cginc
+            TMP_Bitmap-Custom-Atlas.shader
+            TMP_Bitmap-Mobile.shader
+            TMP_Bitmap.shader
+            TMP_SDF Overlay.shader
+            TMP_SDF SSD.shader
+            TMP_SDF-Mobile Masking.shader
+            TMP_SDF-Mobile Overlay.shader
+            TMP_SDF-Mobile SSD.shader
+            TMP_SDF-Mobile.shader
+            TMP_SDF-Surface-Mobile.shader
+            TMP_SDF-Surface.shader
+            TMP_SDF.shader
+            TMP_Sprite.shader
+        Sprites/
+            EmojiOne Attribution.txt
+            EmojiOne.json
+            EmojiOne.png
+    _Assets/
+        Animations/
+            ContainerCounter.controller
+            ContainerCounterClosed.anim
+            ContainerCounterOpenClose.anim
+            CuttingCounter.controller
+            CuttingCounterCut.anim
+            CuttingCounterIdle.anim
+            Idle.anim
+            Player.controller
+            Walk.anim
+        Materials/
+            Black.mat
+            CounterSelected.mat
+            DeliveryArrow.mat
+            Floor.mat
+            PlayerBody.mat
+            PlayerBody_Blue.mat
+            PlayerBody_Green.mat
+            PlayerBody_Red.mat
+            PlayerMovingParticles.mat
+            StoveRedGlow.mat
+            StoveSizzlingParticles.mat
+            Trail.mat
+            Wall.mat
+        Meshes/
+            Textures/
+                Bread_AlbedoTransparency.png
+                Bread_MetallicSmoothness.png
+                Bread_Normal.png
+                Cheese_AlbedoTransparency.png
+                Cheese_MetallicSmoothness.png
+                Cheese_Normal.png
+                Chopping board_AlbedoTransparency.png
+                Chopping board_MetallicSmoothness.png
+                Chopping board_Normal.png
+                Frying pan_AlbedoTransparency.png
+                Frying pan_MetallicSmoothness.png
+                Frying pan_Normal.png
+                Kitchen Counter_AlbedoTransparency.png
+                Kitchen Counter_Blue_AlbedoTransparency.png
+                Kitchen Counter_MetallicSmoothness.png
+                Kitchen Counter_Normal.png
+                Knife_AlbedoTransparency.png
+                Knife_MetallicSmoothness.png
+                Knife_Normal.png
+                Lettuce_AlbedoTransparency.png
+                Lettuce_MetallicSmoothness.png
+                Lettuce_Normal.png
+                Meat_AlbedoTransparency.png
+                Meat_MetallicSmoothness.png
+                Meat_Normal.png
+                Plate_AlbedoTransparency.png
+                Plate_MetallicSmoothness.png
+                Plate_Normal.png
+                Stove_AlbedoTransparency.png
+                Stove_MetallicSmoothness.png
+                Stove_Normal.png
+                Tomato_AlbedoTransparency.png
+                Tomato_MetallicSmoothness.png
+                Tomato_Normal.png
+                Trash bin_AlbedoTransparency.png
+                Trash bin_MetallicSmoothness.png
+                Trash bin_Normal.png
+            All models.fbx
+            Bread bottom.fbx
+            Bread top.fbx
+            Burned meat patty.fbx
+            Cabbage slice_flat.fbx
+            Cabbage slice_shaped.fbx
+            Cabbage.fbx
+            Cabbage.mat
+            Cheese block.fbx
+            Cheese slice.fbx
+            Chopping Board.fbx
+            Cooked meat patty.fbx
+            Counter_hole.fbx
+            Counter_solid.fbx
+            Double doors.fbx
+            Frying Pan.fbx
+            Kitchen Counter.fbx
+            Kitchen Counter_Blue.mat
+            Knife.fbx
+            Plate.fbx
+            Single door.fbx
+            Stove Counter.fbx
+            Tomato slice.fbx
+            Tomato.fbx
+            Trash bin.fbx
+            Uncooked meat patty.fbx
+        PrefabsVisuals/
+            CountersVisuals/
+                ClearCounter_Visual.prefab
+                ContainerCounter_Visual.prefab
+                CuttingCounter_Visual.prefab
+                DeliveryCounter_Visual.prefab
+                PlatesCounter_Visual.prefab
+                StoveCounter_Visual.prefab
+                TrashCounter_Visual.prefab
+            KitchenObjectsVisuals/
+                Bread_Visual.prefab
+                CabbageSliced_Visual.prefab
+                Cabbage_Visual.prefab
+                CheeseBlock_Visual.prefab
+                CheeseSlices_Visual.prefab
+                MeatPattyBurned_Visual.prefab
+                MeatPattyCooked_Visual.prefab
+                MeatPattyUncooked_Visual.prefab
+                Plate_Visual.prefab
+                TomatoSlices_Visual.prefab
+                Tomato_Visual.prefab
+            PlateCompleteVisual.prefab
+            PlayerMovingParticles.prefab
+            PlayerVisual.prefab
+        Sounds/
+            Music/
+                Music.wav
+            SFX/
+                SFX_chop01.wav
+                SFX_chop02.wav
+                SFX_chop03.wav
+                SFX_delivery_fail01.wav
+                SFX_delivery_fail02.wav
+                SFX_delivery_success01.wav
+                SFX_delivery_success02.wav
+                SFX_footstep01_01.wav
+                SFX_footstep01_02.wav
+                SFX_footstep02_01.wav
+                SFX_footstep02_02.wav
+                SFX_object_drop01.wav
+                SFX_object_drop02.wav
+                SFX_object_drop03.wav
+                SFX_object_pickup01.wav
+                SFX_object_pickup02.wav
+                SFX_object_pickup03.wav
+                SFX_pan_sizzle_loop.wav
+                SFX_trash01.wav
+                SFX_trash02.wav
+                SFX_warning01.wav
+                SFX_warning02.wav
+        Textures/
+            Icons/
+                Bread.png
+                Cabbage.png
+                CabbageSlices.png
+                CheeseBlock.png
+                CheeseSlice.png
+                MeatPattyBurned.png
+                MeatPattyCooked.png
+                MeatPattyUncooked.png
+                Plate.png
+                Tomato.png
+                TomatoSlice.png
+            Arrow.png
+            ButtonBackground.png
+            CircleDashed.png
+            Cross.png
+            GradientVertical.png
+            KitchenChaosLogo.png
+            Tick_Border.png
+            Tutorial.png
+            Warning.png
+            White_1x1.png
+    PlayerInputActions.cs
+    PlayerInputActions.inputactions
+    UniversalRenderPipelineGlobalSettings.asset
