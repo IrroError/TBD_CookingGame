@@ -44,7 +44,7 @@ public class DeliveryManager : MonoBehaviour
         // Only look at the front guy (Index 0)
         RecipeSO waitingRecipeSO = waitingRecipeSOList[0];
         
-        bool plateContentsMatchesRecipe = true;
+        bool plateContentsMatchesRecipe = false;
 
         if (waitingRecipeSO.kitchenObjectSOList.Count == plateKitchenObject.GetKitchenObjectSOList().Count)
         {
@@ -73,6 +73,7 @@ public class DeliveryManager : MonoBehaviour
             // Player delivered the correct recipe to the front guy
             waitingRecipeSOList.RemoveAt(0);
             successRecipesAmount += 1;
+            Debug.Log("Success!");
             
             OnRecipeCompleted?.Invoke(this, EventArgs.Empty);
             OnRecipeSuccess?.Invoke(this, EventArgs.Empty);
@@ -80,6 +81,7 @@ public class DeliveryManager : MonoBehaviour
         else
         {
             waitingRecipeSOList.RemoveAt(0);
+            Debug.Log("Failed!");
             
             OnRecipeCompleted?.Invoke(this, EventArgs.Empty);
             OnRecipeFailed?.Invoke(this, EventArgs.Empty);
